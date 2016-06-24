@@ -1,0 +1,18 @@
+{application, lemon,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { lemon_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy
+   ]},
+  {env,[]},
+  {modules, [toppage_handler
+            ]},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.

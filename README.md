@@ -1,2 +1,9 @@
-# lemon
-work in progress
+lemon
+=====
+
+An OTP application
+
+Build
+-----
+
+    $ rebar3 compile
